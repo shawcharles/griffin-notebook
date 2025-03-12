@@ -1,0 +1,20 @@
+{
+  "name": "@griffin-notebook/root",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "app",
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "deduplicate": "jlpm dlx yarn-berry-deduplicate -s fewerHighest && jlpm install"
+  },
+  "devDependencies": {
+    "@jupyterlab/buildutils": "~4.2.0",
+    "lerna": "^6.6.2",
+    "typescript": "~5.0.2"
+  }
+}

@@ -1,0 +1,4 @@
+flaky
+pytest
+pytest-mock
+pytest-qt
