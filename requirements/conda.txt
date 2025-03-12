@@ -1,4 +1,4 @@
-griffin >=6,<7
+git+https://github.com/shawcharles/griffin.git
 jupyter_core
 jupyter_server
 nbformat

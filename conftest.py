@@ -11,7 +11,7 @@ import os
 
 # To activate/deactivate certain things in Griffin when running tests.
 # NOTE: Please leave this before any other import here!!
-os.environ['SPYDER_PYTEST'] = 'True'
+os.environ['GRIFFIN_PYTEST'] = 'True'
 
 # Third-party imports
 import pytest
